@@ -6,6 +6,10 @@ import { INDONESIAN_STOPWORDS, MIN_WORD_LENGTH, MIN_CODE_FREQUENCY } from '../ut
  * No external API calls - all processing happens in the browser
  */
 
+// Configuration constants
+const MAX_CODES_TO_RETURN = 200; // Limit number of codes returned from open coding
+const MAX_CATEGORY_NAME_LENGTH = 50; // Maximum length for generated category names
+
 /**
  * Clean and normalize text
  */
@@ -83,7 +87,7 @@ export function performOpenCoding(rawData: string[]): Code[] {
   // Sort by frequency (descending) and return top codes
   return codes
     .sort((a, b) => b.frequency - a.frequency)
-    .slice(0, 200); // Limit to top 200 codes
+    .slice(0, MAX_CODES_TO_RETURN);
 }
 
 /**
@@ -214,7 +218,7 @@ function generateCategoryName(codeTexts: string[]): string {
   // Use the most frequent/representative code as the category name
   // Take the first few codes and create a descriptive label
   const topCodes = codeTexts.slice(0, 3);
-  return topCodes.join(', ').substring(0, 50);
+  return topCodes.join(', ').substring(0, MAX_CATEGORY_NAME_LENGTH);
 }
 
 /**
@@ -316,11 +320,13 @@ function generateTheoryNarrative(
  * Generate a unique ID
  */
 function generateId(): string {
-  return `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+  return `${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
 }
 
 /**
  * Parse CSV content
+ * Note: This is a simplified CSV parser suitable for basic research data.
+ * For production use with complex CSV files, consider using a dedicated library.
  */
 export function parseCSV(content: string): string[] {
   const lines = content.split('\n');

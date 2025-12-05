@@ -6,12 +6,14 @@ interface WordCloudProps {
   words: WordCloudItem[];
   width?: number;
   height?: number;
+  maxWords?: number; // Maximum number of words to display
 }
 
 export const WordCloud: React.FC<WordCloudProps> = ({ 
   words, 
   width = 600, 
-  height = 400 
+  height = 400,
+  maxWords = 50
 }) => {
   const svgRef = useRef<SVGSVGElement>(null);
 
@@ -34,7 +36,7 @@ export const WordCloud: React.FC<WordCloudProps> = ({
       .range([12, 48]);
 
     // Simple spiral layout for words
-    const data = words.slice(0, 50).map((word, i) => {
+    const data = words.slice(0, maxWords).map((word, i) => {
       const angle = i * 0.5;
       const radius = 10 + i * 5;
       return {
@@ -67,7 +69,7 @@ export const WordCloud: React.FC<WordCloudProps> = ({
       .delay((_d, i) => i * 20)
       .attr('opacity', 1);
 
-  }, [words, width, height]);
+  }, [words, width, height, maxWords]);
 
   if (words.length === 0) {
     return (

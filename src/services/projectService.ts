@@ -119,5 +119,5 @@ export const projectService = {
 };
 
 function generateProjectId(): string {
-  return `proj-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+  return `proj-${Date.now()}-${Math.random().toString(36).substring(2, 11)}`;
 }
