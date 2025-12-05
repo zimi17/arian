@@ -1,0 +1,267 @@
+{
+  "metadata": {
+    "title": "Netnografi Perilaku Investasi Saham Generasi Z di Ruang Digital",
+    "description": "Dataset mentah hasil observasi netnografis fiktif, disusun untuk keperluan penelitian kualitatif.",
+    "generated_on": "2025-01-30",
+    "platforms_observed": [
+      "TikTok",
+      "Telegram",
+      "Discord",
+      "Twitter",
+      "YouTube Live Chat",
+      "Facebook Group",
+      "WhatsApp Community"
+    ],
+    "total_entries": 40
+  },
+
+  "raw_data": [
+    {
+      "id": "TT-01",
+      "platform": "TikTok",
+      "text": "Baru mulai saham gara-gara FYP cuan harian. Ikut-ikutan dulu lah.",
+      "timestamp": "2025-01-03T14:20:00Z"
+    },
+    {
+      "id": "TT-02",
+      "platform": "TikTok",
+      "text": "Influencer A bilang saham B bakal moon. FOMO parah ini.",
+      "timestamp": "2025-01-05T20:12:00Z"
+    },
+    {
+      "id": "TT-03",
+      "platform": "TikTok",
+      "text": "Takut rugi sebenernya, tapi katanya modal kecil gapapa.",
+      "timestamp": "2025-01-06T09:02:00Z"
+    },
+    {
+      "id": "TT-04",
+      "platform": "TikTok",
+      "text": "Belajar saham dari TikTok lebih enak karena visual dan cepat.",
+      "timestamp": "2025-01-07T11:40:00Z"
+    },
+    {
+      "id": "TT-05",
+      "platform": "TikTok",
+      "text": "Cuan cepat bikin nagih, tapi kalau boncos sakit banget.",
+      "timestamp": "2025-01-08T15:12:00Z"
+    },
+
+    {
+      "id": "TG-01",
+      "platform": "Telegram",
+      "text": "Guys, merah semua hari ini. Ada sinyal gak??",
+      "timestamp": "2025-01-08T09:30:00Z"
+    },
+    {
+      "id": "TG-02",
+      "platform": "Telegram",
+      "text": "Modal kerja sampingan langsung gue masukin ke saham.",
+      "timestamp": "2025-01-10T18:45:00Z"
+    },
+    {
+      "id": "TG-03",
+      "platform": "Telegram",
+      "text": "Temen kantor pada daftar IPO. Jadi pengen ikut juga.",
+      "timestamp": "2025-01-11T10:21:00Z"
+    },
+    {
+      "id": "TG-04",
+      "platform": "Telegram",
+      "text": "Influencer ini katanya akurat, tapi kemarin bikin boncos.",
+      "timestamp": "2025-01-12T15:10:00Z"
+    },
+    {
+      "id": "TG-05",
+      "platform": "Telegram",
+      "text": "Sepupu ngajarin aku nabung dulu baru masuk saham.",
+      "timestamp": "2025-01-13T12:30:00Z"
+    },
+
+    {
+      "id": "DS-01",
+      "platform": "Discord",
+      "text": "Join server ini karena temen kos rame trading.",
+      "timestamp": "2025-01-12T07:15:00Z"
+    },
+    {
+      "id": "DS-02",
+      "platform": "Discord",
+      "text": "Liat chart tiap jam bikin stress asli.",
+      "timestamp": "2025-01-12T07:25:00Z"
+    },
+    {
+      "id": "DS-03",
+      "platform": "Discord",
+      "text": "Kalo ga liat chart takut ketinggalan momentum.",
+      "timestamp": "2025-01-12T07:26:00Z"
+    },
+    {
+      "id": "DS-04",
+      "platform": "Discord",
+      "text": "Belajar bareng komunitas lebih enak daripada sendiri.",
+      "timestamp": "2025-01-13T06:10:00Z"
+    },
+    {
+      "id": "DS-05",
+      "platform": "Discord",
+      "text": "Server ini rame kalo lagi hype IPO.",
+      "timestamp": "2025-01-13T06:40:00Z"
+    },
+
+    {
+      "id": "TW-01",
+      "platform": "Twitter",
+      "text": "Bokap bilang jangan judi. Jadi masih pikir-pikir beli IPO.",
+      "timestamp": "2025-01-15T10:02:00Z"
+    },
+    {
+      "id": "TW-02",
+      "platform": "Twitter",
+      "text": "Gue trading buat bantu orang tua nanti.",
+      "timestamp": "2025-01-15T10:15:00Z"
+    },
+    {
+      "id": "TW-03",
+      "platform": "Twitter",
+      "text": "Temen-temen timeline lagi gila saham. Auto kepo.",
+      "timestamp": "2025-01-16T11:20:00Z"
+    },
+    {
+      "id": "TW-04",
+      "platform": "Twitter",
+      "text": "Cuan kecil tapi konsisten lebih aman katanya.",
+      "timestamp": "2025-01-17T08:44:00Z"
+    },
+    {
+      "id": "TW-05",
+      "platform": "Twitter",
+      "text": "Takut rugi itu manusiawi. Yang penting belajar.",
+      "timestamp": "2025-01-18T09:30:00Z"
+    },
+
+    {
+      "id": "FB-01",
+      "platform": "Facebook",
+      "text": "Di keluarga kita dari kecil diajarin hemat.",
+      "timestamp": "2025-01-16T08:00:00Z"
+    },
+    {
+      "id": "FB-02",
+      "platform": "Facebook",
+      "text": "Bangga lihat anak-anak sekarang bisa investasi.",
+      "timestamp": "2025-01-16T09:32:00Z"
+    },
+    {
+      "id": "FB-03",
+      "platform": "Facebook",
+      "text": "Orang tua biasanya ngingetin jangan sembarang investasi.",
+      "timestamp": "2025-01-16T12:00:00Z"
+    },
+    {
+      "id": "FB-04",
+      "platform": "Facebook",
+      "text": "Adat gotong royong masih kuat, bahkan soal uang.",
+      "timestamp": "2025-01-17T07:15:00Z"
+    },
+    {
+      "id": "FB-05",
+      "platform": "Facebook",
+      "text": "Sekarang keluarga di kampung juga belajar saham.",
+      "timestamp": "2025-01-18T10:10:00Z"
+    },
+
+    {
+      "id": "YT-01",
+      "platform": "YouTube",
+      "text": "Bang, aku ikut kelas ini karena temen cuma ngajak FOMO.",
+      "timestamp": "2025-01-18T12:30:00Z"
+    },
+    {
+      "id": "YT-02",
+      "platform": "YouTube",
+      "text": "Mentor online lebih enak, ada yang jelasin dari dasar.",
+      "timestamp": "2025-01-18T12:45:00Z"
+    },
+    {
+      "id": "YT-03",
+      "platform": "YouTube",
+      "text": "Baru ngerti cara baca chart setelah ikut live ini.",
+      "timestamp": "2025-01-19T13:05:00Z"
+    },
+    {
+      "id": "YT-04",
+      "platform": "YouTube",
+      "text": "Sinyal trading gratis banyak tapi ga semua valid.",
+      "timestamp": "2025-01-19T13:22:00Z"
+    },
+    {
+      "id": "YT-05",
+      "platform": "YouTube",
+      "text": "Pemula modal kecil harus sabar ya bang?",
+      "timestamp": "2025-01-20T14:10:00Z"
+    },
+
+    {
+      "id": "WA-01",
+      "platform": "WhatsApp",
+      "text": "Di kampung sini biasa gotong royong urusan keuangan.",
+      "timestamp": "2025-01-20T16:00:00Z"
+    },
+    {
+      "id": "WA-02",
+      "platform": "WhatsApp",
+      "text": "Anak-anak muda sini ikutan trading juga.",
+      "timestamp": "2025-01-20T16:02:00Z"
+    },
+    {
+      "id": "WA-03",
+      "platform": "WhatsApp",
+      "text": "Kita diskusi saham tiap malam minggu.",
+      "timestamp": "2025-01-21T18:00:00Z"
+    },
+    {
+      "id": "WA-04",
+      "platform": "WhatsApp",
+      "text": "Nasihat orang tua tetap nomor satu sebelum investasi.",
+      "timestamp": "2025-01-21T18:30:00Z"
+    },
+    {
+      "id": "WA-05",
+      "platform": "WhatsApp",
+      "text": "Kalau ada yang boncos, kita saling support di grup.",
+      "timestamp": "2025-01-22T19:12:00Z"
+    },
+
+    {
+      "id": "DS-06",
+      "platform": "Discord",
+      "text": "Gue join karena butuh komunitas yang supportive.",
+      "timestamp": "2025-01-23T05:55:00Z"
+    },
+    {
+      "id": "TG-06",
+      "platform": "Telegram",
+      "text": "Sinyal premium jauh lebih akurat kata temen.",
+      "timestamp": "2025-01-24T09:25:00Z"
+    },
+    {
+      "id": "TT-06",
+      "platform": "TikTok",
+      "text": "Modal kecil tapi konsisten, itu kata orang bijak.",
+      "timestamp": "2025-01-24T12:40:00Z"
+    },
+    {
+      "id": "TW-06",
+      "platform": "Twitter",
+      "text": "Temen timeline lagi rame bahas saham syariah.",
+      "timestamp": "2025-01-25T07:50:00Z"
+    },
+    {
+      "id": "FB-06",
+      "platform": "Facebook",
+      "text": "Keluarga besar mulai coba diversifikasi.",
+      "timestamp": "2025-01-25T09:10:00Z"
+    }
+  ]
+}
